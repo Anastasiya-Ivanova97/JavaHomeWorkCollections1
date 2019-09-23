@@ -11,7 +11,7 @@ public class FileWorker {
     private String s;
     public String getFileName() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String s = br.readLine();
+        s = br.readLine();
         return s;
     }
     public String bytesToString() throws IOException {
